@@ -5,10 +5,10 @@
 <body>
 <style>*{margin:0;padding:0;}</style>
 <script data-cfasync="false" src="https://rawgit.com/sayedkhaled/site/master/player.js"></script>
-<div id="playerjxJRqLMFuJaA">
+<div id="player2DKLtZrj">
 </div>
 <script data-cfasync="false" type="text/javascript">
-    jwplayer('playerjxJRqLMFuJaA').setup({
+    jwplayer('player2DKLtZrj').setup({
     file: 'rtmp:\/\/edgetee-frt3-1.xx.fbcdn.net:80\/live-md\/655480391286059?api=1&b=2000&o=lla2&a=AfAhskX5FA-E6Rrd',
   aboutlink: 'http://www.sayedkhaled.blogspot.com',
         controls: 'true',
