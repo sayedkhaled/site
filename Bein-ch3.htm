@@ -1,28 +1,18 @@
-<html>
-<head>
-<title>Kora 4U | Bein 3</title>
 </head>
+<title>Kora 4U | Bein 3</title>
 <body>
 <style>*{margin:0;padding:0;}</style>
-<script data-cfasync="false" src="//cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js"></script>
-<div id="player_1">
-</div>
-<script data-cfasync="false" type="text/javascript">
-    jwplayer('player_1').setup({
-    file: 'rtmp:\/\/edgetee-frt3-1.xx.fbcdn.net:80\/live-md\/655480391286059?api=1&b=2000&o=lla2&a=AfAhskX5FA-E6Rrd',
-  aboutlink: 'http://www.sayedkhaled.blogspot.com',
-        controls: 'true',
-        title: 'Live Stream',
-        width: '100%',
-        height: '490',
-        stretching: 'uniform',
-        autostart: 'true',
-        primary: 'flash',
- skin: 'glow',
- androidhls: 'true',
-image: "https://2.bp.blogspot.com/-JM3VsHCLFog/WAY2Q-bO2LI/AAAAAAAABlk/zySNhH0XsZY_o7SBr8mujqn1CldyjCGpACLcB/s1600/kora4u.png",
+<script type="text/javascript" src="//cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js"></script>
+<div id="player_1"></div>
+<script type="text/javascript">// <![CDATA[
+jwplayer('player_1').setup({
+    file: "rtmp:\/\/edgetee-frt3-1.xx.fbcdn.net:80\/live-md\/655480391286059?api=1&b=2000&o=lla2&a=AfAhskX5FA-E6Rrd",
+    width: "100%",
+    height: "100%",
+    stretching: "fill",
+    flashplayer:"//cdn.jsdelivr.net/jwplayer/5.10/player.swf"
+  });
+// ]]></script>
 
-    });
-</script>
 </body>
 </html>
